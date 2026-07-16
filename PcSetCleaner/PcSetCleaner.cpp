@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <direct.h>
+#include <conio.h>  // 用于 _getch()
 
 #define MAX_PATH_LEN 512
 #define BUFFER_SIZE 1024
@@ -201,8 +202,8 @@ int main() {
     printf("   如需完整功能，请下载QuellGTA实现退出游戏自动进行清洗。www.MageAngela.cn\n");
     printf("================================================================================\n\n");
 
-    printf("按 Enter 键开始清理...\n");
-    getchar();
+    printf("按任意键开始清理...\n");
+    _getch();
 
     // 获取用户文档目录
     getUserDocumentsPath(documentsPath, MAX_PATH_LEN);
@@ -235,7 +236,7 @@ int main() {
     printf("----------------------------------------\n");
     printf("\n所有操作已完成！\n");
     printf("按任意键退出程序...\n");
-    getchar();
+    _getch();
 
     return 0;
 }
