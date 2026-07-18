@@ -3,6 +3,6 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="PcSetCleaner/PcSetCleaner.vcxproj" />
-  <Project Path="PcSetCleaner_Silent/PcSetCleaner_Silent.vcxproj" />
+  <Project Path="PcSetCleaner/PcSetCleaner.vcxproj" Id="2cce5334-d56a-45c6-a908-20e27e9aa679" />
+  <Project Path="PcSetCleaner_Silent/PcSetCleaner_Silent.vcxproj" Id="62e6f429-d0fd-442b-bba6-07603b96d931" />
 </Solution>
